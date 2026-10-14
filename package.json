@@ -1,0 +1,38 @@
+{
+	"name": "mern-chat",
+	"version": "1.0.0",
+	"description": "Full-stack real-time chat application built with MERN stack, Socket.io, and TailwindCSS",
+	"main": "server.js",
+	"scripts": {
+		"server": "nodemon backend/server.js",
+		"start": "node backend/server.js",
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/differentiatorX/mern-chat.git"
+	},
+	"type": "module",
+	"keywords": [
+		"mern",
+		"chat-app",
+		"socketio",
+		"react",
+		"nodejs",
+		"mongodb"
+	],
+	"author": "differentiatorX <madhur.m2006@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.4.1",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.1.1",
+		"socket.io": "^4.7.4"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.3"
+	}
+}
