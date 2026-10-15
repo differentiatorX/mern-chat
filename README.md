@@ -2,7 +2,7 @@
 
 A modern, full-stack real-time messaging web application built with the **MERN** stack (MongoDB, Express, React, Node.js), powered by **Socket.io** for instant two-way communication, styled with **TailwindCSS** and **DaisyUI**, and state-managed using **Zustand**.
 
-![Chat Application Preview] <img width="1024" height="434" alt="image" src="https://github.com/user-attachments/assets/90025840-1caa-456c-af51-50ad1caef37f" />
+Chat Application Preview <img width="1024" height="434" alt="image" src="https://github.com/user-attachments/assets/90025840-1caa-456c-af51-50ad1caef37f" />
 
 ---
 
